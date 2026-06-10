@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Advanced Tech Conference Registration</title>
+</head>
+<body>
+
+    <main>
+        <h1>Global Tech Summit 2026</h1>
+        <p>Complete the form below to secure your seat at the conference.</p>
+
+        <form actions="#" methods="Post">
+
+            <feildset>
+                <legend>Personal Information</legend>
+
+                <p>
+                    <label for="full name">Full Name:</label>
+                    <input type="text" id="full name" placeholder="John Doe" required>
+                </p>
+
+                <p> 
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" placeholder="123-457-890">
+                </p>
+            </feildset>
+
+            <feildset>
+                <lengend>Event Preference</lengend>
+
+                <p>
+                    <label for="ticket-type">Pass Type:</label>
+                    <select id="ticket-type" name="tickect">
+                        <option value="standard">Standard Pass ($99)</option>
+                        <option value="vip">VIP Acess ($299)</option>
+                        <option value="student">Student Discount ($49)</option>
+                    </select> 
+                </p>
+
+                <p>
+                    <label for="experience">Coding Experience Level (1-10):</label>
+                    <input type="range" id="experience" name="experience" min="1" max="10" value="5">
+                </p>
+
+                <p>
+                    <label for="arrival-date">Preference Arrival Date</label>
+                    <input type="date" id="arrival-date" name="arrival"> 
+                </p>
+            </feildset>
+
+            <feildset>
+                <legend>T-Shirt Color Selection</legend>
+                <p>
+                    <label for="shirt-color">Pick your custom shirt color:</label>
+                    <input type="color" id="shirt-color" name="favcolor" value="#007bff">
+                </p>
+            </feildset>
+
+            <p>
+                <button type="reset">Clear Form</button>
+                <button type="submit">Confirm Registration</button>
+            </p>
+        </form>
+    </main>
+    
+</body>
+</html>
